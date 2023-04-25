@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Trang nè",
+      "email": "Trang@gmail.com",
+      "phone": "0987170102"
+    },
+    {
+      "name": "trang",
+      "email": "trang@gmail.com",
+      "phone": "0795486",
+      "id": 2
+    }
+  ]
+}
