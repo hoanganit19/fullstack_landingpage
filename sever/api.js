@@ -20,6 +20,7 @@ formAdd.addEventListener("submit", function (e) {
   var data = new URLSearchParams(body).toString();
 
   e.target.querySelector("button").innerText = "Đang đăng ký...";
+  e.target.querySelector("button").setAttribute("disabled", "disabled");
 
   fetch("https://email.unicode.vn/api/dang_ky_fullstack.php", {
     method: "POST",
@@ -36,6 +37,7 @@ formAdd.addEventListener("submit", function (e) {
       emailObj.value = "";
       phoneObj.value = "";
       e.target.querySelector("button").innerText = btnText;
+      e.target.querySelector("button").removeAttribute("disabled");
     }
   });
 });
