@@ -324,7 +324,6 @@ html {
 .image_background .background {
     background-color: rgb(210, 2, 2);
     margin-top: 30px;
-    padding: 20px 0 30px 0;
     box-shadow: 0px 15px 20px -15px #000;
 
 }
@@ -812,6 +811,7 @@ h1 {
     margin-left: 10px;
     border: 0;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 60%;
 }
 
 .section12 .box {
@@ -874,7 +874,7 @@ h1 {
     }
 
     .image_background .background {
-        width: 214%;
+        width: 100%;
     }
 
     .section7 h3 {
@@ -920,7 +920,7 @@ h1 {
     }
 
     .image_background .background {
-        width: 214%;
+        width: 100%;
     }
 
     .image_background .background img {
@@ -935,6 +935,9 @@ h1 {
     .section12 .col-6:nth-child(2) {
         width: 100%;
         padding-top: 60px;
+    }
+    .section12 form input{
+        width: 80%;
     }
 }
 
